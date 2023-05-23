@@ -1,1 +1,32 @@
+Collaborative Discussion: UML flowchart
+Initial Post
+
+For this discussion, I have chosen the open-source UML tool Visual Paradigm to create a flowchart representing the steps that may have led to a coding weakness identified by OWASP. The coding weakness I selected is "Injection," which is one of the most common security vulnerabilities in web applications (OWASP, 2021).
+
+Injection flaws occur when an application sends untrusted data to an interpreter as part of a command or query, allowing an attacker to execute malicious commands or access unauthorized data. The most common type of injection is SQL injection, where an attacker manipulates a SQL query by injecting malicious SQL code (OWASP, 2021).
+
+Using Visual Paradigm, I created a flowchart to demonstrate the steps that may lead to an injection vulnerability. The flowchart starts with user input that is not properly validated or sanitized. The unvalidated input is then incorporated into a command or query, which is executed by the system. If the input contains malicious code, it can result in unauthorized access or manipulation of data.
+
+ 
+
+To present the design of the proposed software, I would use two UML models: the use case diagram and the sequence diagram. The use case diagram helps to identify and visualize the system's functional requirements, providing an overview of how different actors interact with the system (Visual Paradigm, n.d.). This model is useful for identifying potential security risks and understanding the possible attack vectors for the software.
+
+ 
+
+The sequence diagram, on the other hand, demonstrates the interactions between different objects in the system, focusing on the order in which these interactions occur (Visual Paradigm, n.d.). This diagram can help in identifying potential vulnerabilities in the communication between different components of the system and assist in developing strategies to mitigate the risk of injection attacks.
+These two UML models are the most appropriate choices because they provide a clear and comprehensive understanding of the system's functionality and interactions, allowing for the identification and management of security risks during the software development process.
+
+
+
+
+
+
+
+
+References:
+•	OWASP. (2021). OWASP Top Ten Project. https://owasp.org/www-project-top- ten/
+
+•	Visual Paradigm. (n.d.). What is a Use Case Diagram? https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/
+
+•	Visual Paradigm. (n.d.). What is a Sequence Diagram? https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-sequence-diagram/
 
